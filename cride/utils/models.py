@@ -26,6 +26,6 @@ class CRideModel(models.Model):
     )
 
     class Meta:
-        asbtract = True
-        get_lastest_by = 'created'
+        abstract = True
+        get_latest_by = 'created'
         ordering= ['-created', '-modified']
